@@ -1,0 +1,1 @@
+- I chose to use Vanilla CSS as apposed to Tailwind because
