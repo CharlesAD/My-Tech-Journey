@@ -9,6 +9,10 @@
 
 }
 
+body {
+    height: 100%;
+}
+
 /* Cursor */
 
 .cursor {
@@ -179,9 +183,9 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #642B73;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #642B73;  
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73); 
+    background: linear-gradient(to right, #C6426E, #642B73); 
     color: white;
     transition: all 0.3s ease;
 }
@@ -314,8 +318,8 @@
 }
 
 .hero-heading span {
-    background: #FF512F;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #FF512F;  
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  
     background: linear-gradient(to right, #DD2476, #FF512F); 
     background-size: 100%;
     -webkit-background-clip: text;
@@ -326,9 +330,9 @@
 
 .hero-description {
     font-size: 30px;
-    background: #FF512F;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FF512F; 
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F); 
+    background: linear-gradient(to right, #DD2476, #FF512F); 
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -380,9 +384,9 @@
 
 .main-content h2 {
     font-size: 3rem;
-    background: #fe8c00;
-    background: -webkit-linear-gradient(to top, #f83600, #f83600); 
-    background: linear-gradient(to top, #f83600, #f83600);
+    background: #FF512F;  
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  
+    background: linear-gradient(to right, #DD2476, #FF512F); 
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -396,9 +400,9 @@
     margin-top: 1rem;
     font-size: 1.5rem;
     font-weight: 700;
-    background: #FF512F;
-    background: -webkit-linear-gradient(to top, #FF512F, #f83600);
-    background: linear-gradient(to top, #FF512F, #f83600);
+    background: #FF512F;  
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  
+    background: linear-gradient(to right, #DD2476, #FF512F); 
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -430,6 +434,7 @@
 }
 
 .main-container2 {
+    background-color: #0e0e0e;
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
@@ -450,9 +455,9 @@
 
 .main-content2 h2 {
     font-size: 3rem;
-    background: #fe8c00;
-    background: -webkit-linear-gradient(to top, #fe8c00, #f83600); 
-    background: linear-gradient(to top, #fe8c00, #f83600);
+    background: #FF512F;  
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  
+    background: linear-gradient(to right, #DD2476, #FF512F); 
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -466,9 +471,9 @@
     margin-top: 1rem;
     font-size: 1.5rem;
     font-weight: 700;
-    background: #f79d00; 
-    background: -webkit-linear-gradient(to top, #64f38c, #f79d00);  
-    background: linear-gradient(to top, #64f38c, #f79d00);
+    background: #FF512F;  
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  
+    background: linear-gradient(to right, #DD2476, #FF512F); 
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -504,7 +509,7 @@
     }   
 }
 
-/* My Learning Section */
+/* My Goal Section */
 
 .main {
     background-color: #131313;
@@ -533,9 +538,9 @@
 
 .main-content3 h2 {
     font-size: 3rem;
-    background: #fe8c00;
-    background: -webkit-linear-gradient(to top, #59C173, #59C173); 
-    background: linear-gradient(to top, #59C173, #59C173);
+    background: #FF512F;  
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  
+    background: linear-gradient(to right, #DD2476, #FF512F); 
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -549,9 +554,9 @@
     margin-top: 1rem;
     font-size: 1.5rem;
     font-weight: 700;
-    background: #59C173;  
-    background: -webkit-linear-gradient(to top, #5D26C1 0%,  #59C173 100%); 
-    background: linear-gradient(to top, #5D26C1 0%,  #59C173 100%); 
+    background: #FF512F;  
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  
+    background: linear-gradient(to right, #DD2476, #FF512F); 
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -578,9 +583,10 @@
 /* Footer */
 footer {
     width: 100%;
-    background-color: #000;
+    background-color: #0e0e0e;
     color: white;
     margin-bottom: 0;
+
 }
 
 .footer-container {
@@ -614,4 +620,6 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+
 
