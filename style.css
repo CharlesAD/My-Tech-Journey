@@ -621,6 +621,41 @@ footer {
     padding: 20px;
 }
 
+#bubble-wrapper {
+    height: 100%;
+    width: 100%;
 
+    position: fixed;
+    bottom: 0px;
+
+    overflow: hidden;
+    pointer-event: none;
+}
+
+.bubble {
+    height: max(300px, 30vw);
+    width: max(300px, 30vw);
+
+    background: #FF512F;  
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  
+    background: linear-gradient(to right, #DD2476, #FF512F); 
+    border-radius: 100%;
+
+    position: absolute;
+    left: 50%;
+    top: 100%;
+
+    animation: wave 2s ease-in-out infinite;
+}
+
+@keyframes wave {
+    from, to {
+        transform: translate(-50%, 0%);
+    }
+
+    50% {
+        transform: translate(-50%, -20%);
+    }
+}
 
 
